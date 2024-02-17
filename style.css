@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c1 img{
+    background-color:#134377;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 20px; */
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#134377;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+   border-bottom: 3px solid #134377;
+}
+/* ------------------------BAground Image-------- */
+.bgi{
+    width: 100%;
+    height: 700px;
+    background-image: url(imgg/bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: ani1;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+@keyframes ani1{
+    15%{background-image: url(imgg/bg9.jpg);}
+    30%{background-image: url(imgg/bg1.jpg);}
+    40%{background-image: url(imgg/bg3.jpg);}
+    55%{background-image: url(imgg/bg4.jpg);}
+    65%{background-image: url(imgg/bg5.webp);}
+    75%{background-image: url(imgg/bg7.jpg);}
+    85%{background-image: url(imgg/bg9.jpg);}
+    100%{background-image: url(imgg/bg2.jpg);}
+}
+.box{
+    background-image: linear-gradient(to right,#6F96C6, #134377 90%);
+}
+.tx{
+    color: white;
+    animation-name: ani2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ani2{
+    from{
+        position: relative;
+    }
+    to{
+        position: relative;
+        right: 0;
+        left: 300px;
+
+    }
+}
+.bx{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+   
+}
+.btn1{
+    border: 2px solid white ;
+    border-radius:;
+    animation-name: ani3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ani3{
+    from{
+        position: relative;
+    }
+    to{
+        position: relative;
+        right: 0;
+        left: 300px;
+
+    }
+}
+/* ----------Detaiil--------------- */
+.detail{
+    width: 100%;
+    height: 500px;
+    border: 2px solid;
+    background-image: url(imgg/bgi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.co img{
+    height:400px;
+}
+.bbt1{
+    margin-left: 400px;
+}
+
+/* --------------------LANDMARKS IN THE MAKING------------ */
+.im1{
+    height: 500px;
+    background-image: url(imgg/i1.jpg);
+    background-size: 100% 100%;
+    text-decoration: underline;
+}
+.im1:hover{
+    width: 350px;
+    transition: all 1s;
+    transform: scale(1.5,1);
+}
+.im2{
+    height: 500px;
+    background-image: url(imgg/i2.jpg);
+    background-size: 100% 100%;
+    text-decoration: underline;
+}
+.im2:hover{
+    width: 350px;
+    transition: all 1s;
+    transform: scale(1.5,1);
+}
+.im3{
+    height: 500px;
+    background-image: url(imgg/i3.jpg);
+    background-size: 100% 100%;
+    text-decoration: underline;
+}
+.im3:hover{
+    width: 350px;
+    transition: all 1s;
+    transform: scale(1.5,1);
+}
+
+
+/* ---------------LATEST HAPPENINGS----------------- */
+.LATEST{
+    width: 100%;
+    height: 650px;
+   background-image: url(imgg/bgi.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.cc {
+    border: 2px solid;
+    height: 560px;
+    background-image: url(imgg/et.jpg);
+    background-size: cover;
+}
+/* ---------GLOBAL PRESENCE-------------- */
+.hr p:hover{
+    text-decoration: underline;
+    text-decoration-color: #134377;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+.hr h5{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    color: #134377;
+}
